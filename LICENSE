@@ -1,0 +1,22 @@
+NextOCR Python SDK License Agreement
+
+Copyright (c) 2026 Danh Hong / NextOCR
+
+This software is proprietary and confidential.
+
+Permission is granted to use this software solely for the purpose of
+accessing and interacting with the NextOCR API services.
+
+You may not:
+
+- Copy, modify, distribute, sublicense, or resell this software
+- Reverse engineer, decompile, or disassemble the software
+- Remove or alter any proprietary notices
+- Publish the source code publicly
+
+This software is provided "as is" without warranty of any kind.
+
+Use of this software requires valid API credentials obtained from:
+https://developer.nextocr.org
+
+All rights reserved.
