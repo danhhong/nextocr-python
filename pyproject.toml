@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nextocr-python"
+version = "0.1.0"
+description = "Official Python SDK for NextOCR Developer API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Danh Hong", email = "contact@nextocr.org"}
+]
+keywords = ["ocr", "nextocr", "vision-first", "ai", "document-ai"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "requests>=2.28.0"
+]
+
+[project.urls]
+Homepage = "https://nextocr.org"
+Documentation = "https://developer.nextocr.org"
+Repository = "https://github.com/nextocr/nextocr-python"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
